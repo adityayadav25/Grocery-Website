@@ -24,7 +24,8 @@ await connectCloudinary();
 const allowedOrigins = [
     'http://localhost:5173',  
     'https://grocery-website-wine.vercel.app',
-    'https://grocery-website-o1b6gf14l-aditya-yadav-s-projects1.vercel.app'
+    'https://grocery-website-o1b6gf14l-aditya-yadav-s-projects1.vercel.app',
+    'https://grocery-website-frontend-sbnl.onrender.com'
 ]
 
 app.post('/stripe', express.raw({ type: 'application/json' }), stripeWebhooks)
